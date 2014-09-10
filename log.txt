@@ -1,0 +1,100 @@
+n=5	time=6000
+n=6	time=1000
+n=7	time=3000
+n=8	time=5000
+n=9	time=10000
+n=10	time=22000
+n=11	time=39000
+n=12	time=122000
+n=13	time=259000
+n=14	time=330000
+n=15	time=873000
+n=16	time=603000
+n=17	time=763000
+n=18	time=927000
+n=19	time=1317000
+n=20	time=2539000
+n=21	time=5645000
+n=22	time=9644000
+n=23	time=21205000
+n=24	time=39378000
+n=5
+Sequential Order:	time=15000
+Stride-2 Order:	time=2000
+Stride-4 Order:	time=11000
+Random Order:	time=6000
+n=6
+Sequential Order:	time=6000
+Stride-2 Order:	time=6000
+Stride-4 Order:	time=6000
+Random Order:	time=6000
+n=7
+Sequential Order:	time=12000
+Stride-2 Order:	time=11000
+Stride-4 Order:	time=11000
+Random Order:	time=6000
+n=8
+Sequential Order:	time=14000
+Stride-2 Order:	time=11000
+Stride-4 Order:	time=11000
+Random Order:	time=11000
+n=9
+Sequential Order:	time=24000
+Stride-2 Order:	time=22000
+Stride-4 Order:	time=23000
+Random Order:	time=23000
+n=10
+Sequential Order:	time=44000
+Stride-2 Order:	time=54000
+Stride-4 Order:	time=33000
+Random Order:	time=33000
+n=11
+Sequential Order:	time=65000
+Stride-2 Order:	time=65000
+Stride-4 Order:	time=65000
+Random Order:	time=65000
+n=12
+Sequential Order:	time=130000
+Stride-2 Order:	time=130000
+Stride-4 Order:	time=141000
+Random Order:	time=175000
+n=13
+Sequential Order:	time=353000
+Stride-2 Order:	time=321000
+Stride-4 Order:	time=260000
+Random Order:	time=278000
+n=14
+Sequential Order:	time=512000
+Stride-2 Order:	time=592000
+Stride-4 Order:	time=178000
+Random Order:	time=280000
+n=15
+Sequential Order:	time=221000
+Stride-2 Order:	time=246000
+Stride-4 Order:	time=246000
+Random Order:	time=768000
+n=16
+Sequential Order:	time=341000
+Stride-2 Order:	time=357000
+Stride-4 Order:	time=508000
+Random Order:	time=1207000
+n=17
+Sequential Order:	time=448000
+Stride-2 Order:	time=482000
+Stride-4 Order:	time=816000
+Random Order:	time=6518000
+n=18
+Sequential Order:	time=937000
+Stride-2 Order:	time=1052000
+Stride-4 Order:	time=1877000
+Random Order:	time=21024000
+n=19
+Sequential Order:	time=1797000
+Stride-2 Order:	time=2053000
+Stride-4 Order:	time=3758000
+Random Order:	time=71881000
+n=20
+Sequential Order:	time=3650000
+Stride-2 Order:	time=4378000
+Stride-4 Order:	time=8563000
+Random Order:	time=157960000
