@@ -1,7 +1,6 @@
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class PerformanceTimer {
@@ -34,7 +33,6 @@ public class PerformanceTimer {
 			list.traverse();
 			endTime = System.nanoTime();
 			log.println("\ttime="+ (endTime-startTime));
-			log.flush();
 		}
 	}
 
@@ -55,7 +53,6 @@ public class PerformanceTimer {
 			log.print("Random Order:");
 			fillArray(-1,array);
 			traverseArray(array);
-			log.flush();
 		}
 	}
 	
@@ -71,14 +68,15 @@ public class PerformanceTimer {
 
 	private void fillArray(int n, Integer[] array){
 		if(n==-1){
-			ArrayList<Integer> choices = new ArrayList<Integer>();
+			Integer[] choices = new Integer[array.length-2];
 			for(int i=1; i<array.length-1; i++)
-				choices.add(i);
+				choices[i-1]=i;
 			int i = 0;
-			while(choices.size()>0){
-				int rand = (int) (Math.random()*choices.size());
-				array[i]=choices.remove(rand);
+			for(int j=0; j<choices.length; j++){
+				int rand = (int) (Math.random()*(choices.length-j));
+				array[i]=choices[rand];
 				i=array[i];
+				choices[rand]=choices[choices.length-j-1];
 			}
 			array[i]=array.length-1;
 			array[array.length-1]=-1;
